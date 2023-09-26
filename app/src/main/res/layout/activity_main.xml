@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -12,34 +12,7 @@
     -->
     <!-- styles.xml -->
 
-    <View
-        android:id="@+id/btn"
-        android:layout_width="311dp"
-        android:layout_height="102dp"
 
-        android:layout_marginBottom="64dp"
-        android:background="#90EE90"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        />
-
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="249dp"
-        android:layout_height="73dp"
-        android:gravity="center"
-        android:text="Get Started"
-        android:textColor="@color/black"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:fontFamily="sans-serif"
-        app:layout_constraintBottom_toBottomOf="@+id/btn"
-        app:layout_constraintEnd_toEndOf="@+id/btn"
-        app:layout_constraintStart_toStartOf="@+id/btn"
-        app:layout_constraintTop_toTopOf="@+id/btn" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -54,19 +27,40 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="377dp"
-        android:layout_height="100dp"
-        android:layout_marginBottom="40dp"
-        android:fontFamily="sans-serif"
+        android:layout_width="599dp"
+        android:layout_height="106dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="-39dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom=
+
+
+
         android:gravity="center"
-        android:text="Get Started"
         android:text="A Step Towards a More Sustainable Market Place"
         android:textColor="#1fc600"
         android:textSize="25dp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/btn"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+         />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button2"
+        android:layout_width="490dp"
+        android:layout_height="147dp"
+        android:layout_below="@id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="41dp"
+        android:background="@drawable/baseline_rectangle_24"
+        android:text="Get Started"
+        android:textColor="@color/white"
+        android:textSize="45dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
