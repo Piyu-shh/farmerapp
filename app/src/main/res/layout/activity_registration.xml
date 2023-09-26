@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bgGRASS"
+    android:background="@drawable/background"
     tools:context=".registration">
 
     <TextView
@@ -117,7 +117,6 @@
 
         android:background=""
         android:drawablePadding="10dp"
-        android:hint="Password"
         android:padding="5dp"
         android:textColor="@color/white"
         android:textSize="15dp"

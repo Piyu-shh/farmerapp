@@ -14,10 +14,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void toggle(View v){
-        v.setEnabled(false);
-        Log.d("success" , "Yo");
-        Button b=(Button)v;
-        b.setText("peepeePooPoo");
-    }
+
 }
